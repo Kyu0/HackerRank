@@ -26,17 +26,15 @@ int main(){
     vector<string> input = {"1","3","3","314239592","5","54","4"};
 
     cout << "Before Sorting" << endl;
-
     for(string s : input){
         cout << s << endl;
     }
 
     cout << "After Sorting" << endl;
     input = bigSorting(input);
-
     for(string s : input){
         cout << s << endl;
     }
-    
+
     return 0;
 }
