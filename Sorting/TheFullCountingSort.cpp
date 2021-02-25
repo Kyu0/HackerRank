@@ -26,6 +26,7 @@ void countSort(vector<vector<string>> arr){
         index[number].push_back(i);
     }
 
+    //print
     for(vector<int> numbers : index){
         for(int number : numbers){
             cout << arr[number][1] << " ";
