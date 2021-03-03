@@ -42,11 +42,6 @@ int main() {
 
     //sorting
     sort(arr.begin(), arr.end());
-    cout << "sorted : ";
-    for(int n : arr){
-        cout << n << " ";
-    }
-    cout << endl;
     
     //get left array, right array
     vector<int>::iterator left_end = arr.begin() + (arr.size() / 2);
@@ -58,16 +53,6 @@ int main() {
 
     vector<int> left_arr(arr.begin(), left_end);
     vector<int> right_arr(right_start, arr.end());
-
-    for(int n : left_arr){
-        cout << n << " ";
-    }
-    cout << endl;
-
-    for(int n : right_arr){
-        cout << n << " ";
-    }
-    cout << endl;
 
     //get Q1, Q2, Q3
     double quartile[3];
