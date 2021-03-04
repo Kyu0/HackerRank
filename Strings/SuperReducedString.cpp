@@ -27,11 +27,9 @@ string superReducedString(string s){
         else{
             result = result + c;
         }
-
-        cout << result << endl;
     }
 
-    return result;
+    return (result.size()) ? result : "Empty String";
 }
 
 int main(){
