@@ -31,7 +31,7 @@ int main() {
     //get mean
     mean = sum / n;
     sum = 0;
-    cout << mean << endl;
+    
     //get squared distance from the mean, each element
     for(int i = 0 ; i < n ; ++i){
         sum += (arr[i] - mean) * (arr[i] - mean);
